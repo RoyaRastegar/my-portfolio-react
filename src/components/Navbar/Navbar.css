@@ -21,3 +21,11 @@
 .nav-connect:hover {
   transform: scale(1.05);
 }
+.nav-menu li:hover {
+  transform: scale(1.25);
+  transition: 0.3s;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
