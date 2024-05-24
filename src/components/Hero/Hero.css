@@ -2,19 +2,12 @@
   display: flex;
   align-items: center;
   padding-top: 20px;
-  flex-direction: row;
-  gap: 30px;
+  flex-direction: column;
+  gap: 35px;
   justify-content: space-around;
-  padding-left: 200px;
   padding-top: 100px;
 }
-.hero-right {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-  padding-top: 50px;
-}
+
 .hero img {
   width: 30%;
   margin-top: 40px;
