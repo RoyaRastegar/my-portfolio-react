@@ -5,11 +5,11 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import MyWork from "./components/Work/MyWork";
 import Contact from "./components/Contact/Contact";
-
 const App = () => {
+  const navbarItem = ["About", "About me", "Services", "Portfolio", "Contact"];
   return (
     <div>
-      <Navbar />
+      <Navbar navItem={navbarItem} />
       <Hero />
       <About />
       <Services />
