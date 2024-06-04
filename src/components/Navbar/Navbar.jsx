@@ -1,19 +1,19 @@
-// import Logo from "../../assets/logo.svg";
 import "./Navbar.css";
-const Navbar = () => {
+import PropTypes from "prop-types";
+
+const Navbar = ({ navItem }) => {
   return (
     <div className="navbar">
-      {/* <img src={Logo} alt="logo" /> */}
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>About me</li>
-        <li>Services</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
+        {navItem.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
       </ul>
       <div className="nav-connect">Connect With Me</div>
     </div>
   );
 };
-
+Navbar.propTypes = {
+  navItem: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
 export default Navbar;
