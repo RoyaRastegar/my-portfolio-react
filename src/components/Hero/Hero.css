@@ -65,3 +65,37 @@
   border: 2px solid #b415ff;
   color: #b415ff;
 }
+@media (max-width: 768px) {
+  .hero img {
+    margin-top: 120px;
+    width: 260px;
+  }
+  .hero h1,
+  span {
+    margin-top: 30px;
+    width: 90%;
+    font-size: 40px;
+  }
+  .hero p {
+    width: 100px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
+  .hero-action {
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .hero-connect {
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 10px;
+  }
+  .hero-resume {
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 10px;
+  }
+}
