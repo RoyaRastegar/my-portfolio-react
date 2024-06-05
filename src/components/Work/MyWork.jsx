@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 function MyWork() {
   return (
-    <div className="myWork">
+    <div id="Portfolio" className="myWork">
       <div className="myWork-title">
         <h1>My Work</h1>
         <hr />
@@ -21,7 +21,7 @@ function MyWork() {
       </div>
       <div className="myWork-showMore">
         <h3>Show More</h3>
-        <FaArrowRight fontSize="1.7em" />
+        <FaArrowRight className="myWork-show-icon" />
       </div>
     </div>
   );
