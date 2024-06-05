@@ -72,3 +72,44 @@
   transform: scale(1.02);
   transition: 0.3s;
 }
+.services-readmore-icon {
+  font-size: large;
+}
+@media (max-width: 768px) {
+  .services {
+    align-items: start;
+    gap: 70px;
+    margin: 20px 50px;
+  }
+
+  .services-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 400;
+  }
+  .services-title hr {
+    margin-left: 70px;
+  }
+  .services-format {
+    gap: 20px;
+    padding: 50px;
+  }
+  .services-format h2 {
+    font-size: 28px;
+  }
+  .services-format p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 200px;
+  }
+  .services-readmore-icon {
+    width: 20px;
+  }
+  .services-readmore p {
+    font-size: 15px;
+  }
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
