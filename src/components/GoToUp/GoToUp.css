@@ -1,0 +1,26 @@
+.scroll-to-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed position */
+  bottom: 20px; /* Place the button 20px from the bottom */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 1px solid white; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Set a text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px;
+}
+
+/* Show the button when it should be visible */
+.scroll-to-top.show {
+  display: block;
+}
+
+/* Add a hover effect */
+.scroll-to-top:hover {
+  border: 1px solid #c862c8;
+  color: #b415ff;
+}

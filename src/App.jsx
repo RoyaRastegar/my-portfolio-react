@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import MyWork from "./components/Work/MyWork";
 import Contact from "./components/Contact/Contact";
+import GoToUp from "./components/GoToUp/GoToUp";
 const App = () => {
   const navbarItem = ["Home", "About", "Services", "Portfolio", "Contact"];
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <MyWork />
       <Contact />
+      <GoToUp />
     </div>
   );
 };
