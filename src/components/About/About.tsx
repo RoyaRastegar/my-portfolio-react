@@ -1,4 +1,4 @@
-import porofile from "../../assets/my image.png";
+import porofile from "../../assets/me.jpg";
 import "./About.css";
 
 const About: React.FC = () => {

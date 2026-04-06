@@ -1,5 +1,5 @@
 import "./Hero.css";
-import PorofileImg from "../../assets/my image.png";
+import PorofileImg from "../../assets/me.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero: React.FC = () => {
